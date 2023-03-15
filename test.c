@@ -93,8 +93,6 @@ int main(int argc, char const *argv[])
     Stack myStack;
     stack_init(&myStack);
     stack_push(&myStack, LLONG_MAX, 0);
-    // printf("%lld\n", stack_topFirst(&myStack));
-    // printf("%lld\n", stack_topSecond(&myStack));
     LL sum = 0;
     LL n, value;
     scanf("%lld", &n);
@@ -110,7 +108,7 @@ int main(int argc, char const *argv[])
         sum += i - stack_topFront(&myStack);
         stack_push(&myStack, value, i);
     }
-    printf("%lld\n", sum);
+    printf("Sum = %lld\n", sum);
     return 0;
 
 }
