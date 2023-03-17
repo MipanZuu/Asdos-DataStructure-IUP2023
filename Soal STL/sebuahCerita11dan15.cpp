@@ -30,7 +30,7 @@ bool search (long long n){
     return false;
 }
 
-int main(void){
+int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     

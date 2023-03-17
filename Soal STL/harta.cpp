@@ -13,14 +13,18 @@ void scan(vector<int> &V) {
   int cnt = 1;
   for (int i = V.size() - 1; i > 0; i--) {
     if (V[i - 1] == back) {
+      cout << V[i - 1] << " = " << back << endl;
       cnt++;
+      cout << "counter " << cnt << endl;
     } else {
+      cout << "adalah " << V.size() << endl;
       break;
     }
   }
 
   if (cnt == back) {
     while (cnt--) {
+      cout << cnt << " counter" << endl;
       V.pop_back();
     }
   }

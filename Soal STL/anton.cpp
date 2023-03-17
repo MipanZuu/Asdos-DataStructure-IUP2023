@@ -10,6 +10,7 @@ void solve() {
   if (cmd == "goto") {
     string dir;
     cin >> dir;
+
     dirs.push_back(dir);
   } else if (cmd == "goback") {
     if (!dirs.empty()) {

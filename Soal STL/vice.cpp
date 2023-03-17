@@ -1,9 +1,3 @@
-/*
- *
- * by Muhammad Ghifari Taqiuddin
- * created on Tue, 31 May 2022
- *
- */
 #include <bits/stdc++.h>
 using namespace std;
 
